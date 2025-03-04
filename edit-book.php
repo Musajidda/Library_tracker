@@ -6,7 +6,7 @@ if (!isset($_SESSION["user"])) {
     header("location: login.php");
 } 
 
-//header links
+//Header link
 require "inc/header.php"; ?>
 
 <div class="container">
