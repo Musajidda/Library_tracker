@@ -8,14 +8,22 @@ require "inc/header.php";
 <div class="container">
     <?php require './pages/header-home.php'; ?>
     <div class="container-fluid my-3">
-        <img class="d-block mx-auto mb-4" src="./img/traceLibrary2.PNG" style="border-radius: 15px" alt="" width="950" height="450">
+        <img class="d-block mx-auto mb-4" src="./img/traceLibrary2.PNG" style="border-radius: 15px" alt="" width="950"
+            height="450">
         <div class="row">
             <div class="col-6">
                 <div class="p-3 my-3 text-center">
                     <h3 class="display-5 fw-bold" style="color: #74d7ad;">TraceLibrary</h3>
                     <div class="col-lg-6 mx-auto">
-                        <p class="lead mb-4">An innovative Book Ownership Tracking System designed to simplify the process of finding book owners, including libraries and individuals.</p>
+                        <p class="lead mb-4">An innovative Book Ownership Tracking System designed to simplify the
+                            process of finding book owners, including libraries and individuals.</p>
                         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
+                        </div>
+                        <div>
+                            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quae quisquam quo
+                                voluptate blanditiis dignissimos obcaecati explicabo, numquam provident impedit,
+                                doloremque esse incidunt, hic sequi fugiat quidem non corrupti praesentium.</h1>
 
                         </div>
                     </div>
@@ -25,7 +33,9 @@ require "inc/header.php";
                 <div class="p-3 my-3 text-center">
                     <h3 class="display-5 fw-bold" style="color: #74d7ad;">Why Us</h3>
                     <div class="col-lg-6 mx-auto">
-                        <p class="lead mb-4">Enhance the accessibility and sharing of books within communities. Whether you're searching for a library that has a specific book or trying to find the current owner of a borrowed book </p>
+                        <p class="lead mb-4">Enhance the accessibility and sharing of books within communities. Whether
+                            you're searching for a library that has a specific book or trying to find the current owner
+                            of a borrowed book </p>
                         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
 
                         </div>
@@ -121,7 +131,8 @@ require "inc/header.php";
                     <form action="search.php" method="get">
                         <div class="form-group">
                             <h5>Search a Book</h5>
-                            <input type="text" class="form-control" name="search_term" placeholder="Enter Search Keyword " id="" required>
+                            <input type="text" class="form-control" name="search_term"
+                                placeholder="Enter Search Keyword " id="" required>
 
                             <label for="search_category">Search Category:</label>
                             <select name="search_category" class="form-select" required>
