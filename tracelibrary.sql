@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 04, 2024 at 11:33 PM
+-- Generation Time: Jun 26, 2025 at 06:51 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -87,7 +87,9 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `name`, `email`, `role`, `password`) VALUES
 (1, 'admin', 'admin@gmail.com', 'admin', 'e10adc3949ba59abbe56e057f20f883e'),
 (2, 'sanee itas', 'saneeitas@gmail.com', 'user', 'e10adc3949ba59abbe56e057f20f883e'),
-(3, 'Test', 'test@gmail.com', 'user', 'e10adc3949ba59abbe56e057f20f883e');
+(3, 'Test', 'test@gmail.com', 'user', 'e10adc3949ba59abbe56e057f20f883e'),
+(4, 'Muhammad musa jidda', 'musa1@gmail.com', 'user', 'e10adc3949ba59abbe56e057f20f883e'),
+(5, 'Muhammad musa', 'musajidder@gmail.com', 'user', 'e10adc3949ba59abbe56e057f20f883e');
 
 --
 -- Indexes for dumped tables
@@ -134,7 +136,7 @@ ALTER TABLE `book_ownership`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Constraints for dumped tables

@@ -21,6 +21,10 @@ require "inc/header.php";
 
                         </div>
                         <div>
+                            <div>
+
+                                lore
+                            </div>
                             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quae quisquam quo
                                 voluptate blanditiis dignissimos obcaecati explicabo, numquam provident impedit,
                                 doloremque esse incidunt, hic sequi fugiat quidem non corrupti praesentium.</h1>
