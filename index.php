@@ -32,6 +32,11 @@ require "inc/header.php";
                         </div>
                     </div>
                 </div>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corporis voluptatibus ipsam
+                    tenetur ab laudantium similique tempore inventore nemo ad omnis aliquam doloribus qui, et at
+                    incidunt, nam illo. Maiores!
+                </div>
             </div>
             <div class="col-6">
                 <div class="p-3 my-3 text-center">
